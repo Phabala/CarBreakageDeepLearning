@@ -1,0 +1,16 @@
+https://brunch.co.kr/@mnc/7
+
+
+# 혼돈행렬
+
+모델을 평가하기 위한 평가 척도 (Evalutation Matric)에는 Classification, Regression 척도가 있다. (분류, 예측)
+
+우선 분류 평가 척도의 대표 척도인 정확도, 정밀도, 재현도, F1 Score에 대해 알아보자. Accuracy, Precision, Recall, F1 score.
+
+#1. Confusion Matrix(혼돈 행렬): TP, FP, FN, TN --> 그림은 링크 참조
+#2. 정확도 (Accuracy) = (TP + TN) / (TP + TN + FP + FN)
+#3. 재현율 (Recall) = TP / (TP + FN)
+#4. 정밀도 (Precision) = TP / (TP + FP)
+#5. F1 Score = (2*Recall*Precision)/(Precision+Recall)
+
+F1 Score는 Precision과 Recall의 harmonic mean 으로 두 가지의 조화 평균을 구하는 방법이다. 두 지표 모두 균혀있게 반영하여 모델의 성능을 확인하기 위함.
