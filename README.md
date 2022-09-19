@@ -1,5 +1,4 @@
-# CarBreakageDeepLearning
-AI 사관학교 중간 프로젝트
+<h2>AI 사관학교 중간 프로젝트<h2>
 <hr>
 주제: 차량 파손 종류 분류 모델
 
